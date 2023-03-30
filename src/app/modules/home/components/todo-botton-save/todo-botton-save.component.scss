@@ -1,0 +1,32 @@
+@import '../../../../../../dist/scss/variables.scss';
+
+
+:host{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 200px;
+    text-align: center;
+    padding: 20px 0;
+    button{
+        width: 75%;
+        max-width: 200px;
+        margin: 0 auto;
+        padding: 10px 10px;
+        border: 1px solid $primary-color;
+        border-radius: 5px;
+        background: transparent ;
+        color: #000;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover{
+        background: rgb(35, 150, 35);
+        color: #fff;
+        border: none;
+    
+        }
+    }
+
+}

@@ -1,0 +1,78 @@
+@import '../../../../../../dist/scss/variables.scss';
+
+:host {
+  display: flex;
+  justify-content: center;
+
+  .inputBox {
+    margin-right: 100px;
+    position: relative;
+    width: 400px;
+    margin-bottom: 50px;
+
+  }
+
+  .inputBox input {
+   
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: $primary-background-color;
+    border-radius: 5px;
+    color: #000000;
+    outline: none;
+    font-size: 1rem;
+  }
+
+  .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.25);
+    text-transform: uppercase;
+    transition: 0.5s;
+  }
+
+
+  .inputBox input:valid~span,
+  .inputBox input:focus~span {
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.65rem;
+    color: $secondary-color;
+    padding: 0 10px;
+    background: $primary-background-color;
+    border-left: 1px solid $secondary-color;
+    border-right: 1px solid $secondary-color;
+
+  }
+
+  .inputBox:nth-child(2) input:valid~span,
+  .inputBox:nth-child(2) input:focus~span {
+    background: $secondary-color;
+    color: $primary-background-color;
+    border-radius: 2px;
+  }
+
+  .inputBox input:valid,
+  .inputBox input:focus {
+    border: 1px solid $secondary-color;
+  }
+
+}
+
+// input{
+//     width: 400px;
+//     height: 50px;
+//     border: 1px solid $secondary-color;
+//     border-radius: 10px;
+//     padding:10px;
+//     font-size: 1rem;
+//     color: black;
+//     background-color: none;
+//     background: transparent;
+//     margin-bottom:40px;
+//     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.5);
+
+// }

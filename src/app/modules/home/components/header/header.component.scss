@@ -1,0 +1,26 @@
+@import '../../../../../../dist/scss/variables.scss';
+
+
+
+.header {
+  margin-bottom: 50px;
+  width: 500px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+
+  h1 {
+
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 700;
+    color: $secondary-color;
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+}
