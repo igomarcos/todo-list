@@ -6,7 +6,7 @@
 O objetivo deste projeto é desenvolver uma aplicação web simples para criação e gerenciamento de uma lista de tarefas. Inicialmente, a ideia era criar uma lista que pudesse receber tarefas digitadas pelo usuário, salvá-las em uma lista e apresentá-las com a possibilidade de exclusão individual ou em massa e edição. No entanto, o projeto evoluiu com a adição da funcionalidade de exportação da lista para um arquivo PDF, permitindo que o usuário salve a lista em seu computador ou celular.
 
 
-<h2>Funcionalidades</h2>
+# :hammer: Funcionalidades do projeto
 A Todo List possui as seguintes funcionalidades 🏗️:
 
    - Adicionar novas tarefas
@@ -19,25 +19,74 @@ A Todo List possui as seguintes funcionalidades 🏗️:
 
    - Exportar a lista de tarefas para um arquivo PDF
    
-<h2>Tecnologias ultilizadas 🖥️</h2>
+#Tecnologias ultilizadas 🖥️
 A Todo List possui as seguintes funcionalidades:
 
-   - Angular
+   - `Angular`
 
-   - jsPDF
+   - `jsPDF`
 
-   - Angular Material
+   - `Angular Material`
    
-   <h1>Como executar o projeto</h1>
+   
+   # 🛠️ Abrir e rodar o projeto
+   
 
-<h2>Versão LIVE</h2>
+# Versão LIVE 📽️
 Para acessar a versão funcional online so clicar no botão abaixo:
 
 https://igomarcos.github.io/todo-list/
 
-<h2>Executar o projeto local</h2>
 
-  1 - Clone este repositório:
+# 📁 Acesso ao projeto
+
+### 1 - Clone este repositório:
+
+`git clone https://github.com/seu-usuario/seu-repositorio.git`
+    
+### 2 - Navegue até a pasta do projeto:
+`cd seu-repositorio`
+    
+       
+### 3 - Instale as dependências do projeto:
+`npm install`
+        
+        
+### 4 - Inicie o servidor de desenvolvimento:
+`ng serve`
+    
+### 5 - Abra o seu navegador e acesse o endereço `http://localhost:4200`.
+
+# 📃 Como exportar a lista para um arquivo PDF 
+
+1 - Clique no botão "SALVAR" na página da Todo List.
+2 - Um arquivo PDF será gerado e você escolhera onde e com que nome baixará sua lista de tarefas.
+   
+# 🤝Contribuindo
+
+Contribuições são sempre bem-vindas! Se você quiser contribuir com este projeto, por favor siga os seguintes passos:
+
+  1 - Fork este repositório
+  2 - Crie uma branch para a sua feature: `git checkout -b minha-feature`
+  3 - Faça as mudanças necessárias no código
+  4 - Faça o commit das suas mudanças: `git commit -m 'Adicionando minha feature'`
+  5 - Envie as suas mudanças para o seu fork: `git push origin minha-feature`
+  6 - Crie um Pull Request
+
+  </br>
+</br>
+</br>
+
+<div align="center"> 
+ 	<a href="https://instagram.com/creative.agenciaofl" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ <a href="https://discord.gg/pDbY76q8Qf" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href = "mailto:igo.dev2023@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/igomarcos/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+ </div>
+
   
-  git clone https://github.com/seu-usuario/seu-repositorio.git
+  
+  <h4 align="center"> 
+    :construction:  Projeto em construção  :construction:
+</h4>
 
