@@ -1,32 +1,43 @@
-# TodoList
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<h1> CRIANDO UMA TODO-LIST COM ANGULAR 💻</h1>
 
 
+<h2>Introdução</h2>
+
+O objetivo deste projeto é desenvolver uma aplicação web simples para criação e gerenciamento de uma lista de tarefas. Inicialmente, a ideia era criar uma lista que pudesse receber tarefas digitadas pelo usuário, salvá-las em uma lista e apresentá-las com a possibilidade de exclusão individual ou em massa e edição. No entanto, o projeto evoluiu com a adição da funcionalidade de exportação da lista para um arquivo PDF, permitindo que o usuário salve a lista em seu computador ou celular.
 
 
+<h2>Funcionalidades</h2>
+A Todo List possui as seguintes funcionalidades 🏗️:
+
+   - Adicionar novas tarefas
+
+   - Marcar uma tarefa como concluída e lendoela parqa o final da fila
+
+   - Remover uma tarefa
+
+   - Editar uma tarefa existente
+
+   - Exportar a lista de tarefas para um arquivo PDF
+   
+<h2>Tecnologias ultilizadas 🖥️</h2>
+A Todo List possui as seguintes funcionalidades:
+
+   - Angular
+
+   - jsPDF
+
+   - Angular Material
+   
+   <h1>Como executar o projeto</h1>
+
+<h2>Versão LIVE</h2>
+Para acessar a versão funcional online so clicar no botão abaixo:
+
+https://igomarcos.github.io/todo-list/
+
+<h2>Executar o projeto local</h2>
+
+  1 - Clone este repositório:
+  
+  git clone https://github.com/seu-usuario/seu-repositorio.git
 
