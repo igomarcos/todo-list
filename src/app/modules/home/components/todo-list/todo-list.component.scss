@@ -90,9 +90,71 @@ section {
   height: 500px;
 }
 
-.headerInput{
+.headerInput {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
+}
+
+
+@media(max-width: 768px) {
+  section {
+    width: 95%;
+    margin-top: 0;
+
+  }
+
+  .listAdd {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 95%;
+    height: 95vh;
+  }
+}
+
+@media (max-width: 500px) {
+  section {
+    width: 300px;
+    margin-top: 0;
+
+    &.loading {
+      width: 300px;
+      background-image: url("../../../../../assets/img/fundo.png");
+      background-repeat: no-repeat;
+      background-position: center 30px;
+
+
+    }
+
+
+    ul {
+      width: 100%;
+      padding: 20px;
+
+    }
+
+    
+  }
+
+  .listAdd {
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+
+  }
+
+  .headerInput {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
 }

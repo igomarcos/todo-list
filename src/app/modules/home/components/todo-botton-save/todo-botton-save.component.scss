@@ -30,3 +30,33 @@
     }
 
 }
+
+@media(max-width:768px){
+    :host{
+        max-width: 130px;
+        button{
+            background: rgb(35, 150, 35);
+            border: 1px solid #0d6300;
+            color: #fff;
+            width: 100%;
+            font-weight: 400;
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (max-width:500px) {
+
+    :host {
+        max-width: 120px;
+
+        button {
+            background: rgb(35, 150, 35);
+            border: 1px solid #0d6300;
+            color: #fff;
+            width: 100%;
+            font-weight: 400;
+            font-size: 0.8rem;
+        }
+    }
+}

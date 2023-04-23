@@ -2,7 +2,7 @@
     <div class="listButtons">
 
         <section [ngClass]="{'loading': !taskList.length}">
-            <div  #contentElement id="contentElement" [ngStyle]="{'height': '400px', 'width': '450px', 'overflow': 'auto'}">
+            <div  #contentElement id="contentElement" [ngStyle]="{'height': '400px', 'width': '100%', 'overflow': 'auto'}">
                 <ul *ngIf="taskList.length">
                     <li *ngFor="let item of taskList; let i = index ">
                         <input type="checkbox" [(ngModel)]="item.checked">

@@ -24,3 +24,25 @@
     margin-bottom: 20px;
   }
 }
+
+@media(max-width: 768px) {
+  .header {
+    justify-content: space-around;
+  }
+}
+
+@media(max-width: 500px) {
+  .header {
+    width: auto;
+    justify-content: space-around;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}

@@ -13,7 +13,7 @@
   }
 
   .inputBox input {
-   
+
     width: 100%;
     padding: 10px;
     border: 1px solid rgba(255, 255, 255, 0.25);
@@ -62,17 +62,31 @@
 
 }
 
-// input{
-//     width: 400px;
-//     height: 50px;
-//     border: 1px solid $secondary-color;
-//     border-radius: 10px;
-//     padding:10px;
-//     font-size: 1rem;
-//     color: black;
-//     background-color: none;
-//     background: transparent;
-//     margin-bottom:40px;
-//     box-shadow: 4px 4px 10px 0 rgba(0, 0, 0, 0.5);
+@media (max-width: 768px) {
+  :host {
+    
+    flex-direction: column;
+    align-items: center;
 
-// }
+    .inputBox {
+      width: 500px;
+      margin-right: 0;
+      margin-bottom:0;
+    }
+
+    .inputBox input{
+      width: 95%;
+      height: 75px;
+      margin: 0;
+    } 
+  }
+}
+
+@media (max-width: 500px) {
+  :host {
+    .inputBox {
+      width: 350px;
+    }
+  }
+}
+
